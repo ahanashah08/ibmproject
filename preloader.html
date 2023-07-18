@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+         <div id="preloader">
+</div>
+
+<script>
+function closepreloader(){
+            document.getElementById("preloader").style.display = 'none';
+        }
+        window.addEventListener("load",function(){
+            setTimeout(closepreloader, 5000);
+            
+        });
+        </script>
+
+    </body>
+</html>
